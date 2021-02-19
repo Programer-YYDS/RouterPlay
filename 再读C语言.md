@@ -18,7 +18,7 @@
 1.  区别：**单精度占4个字节，双精度占8个字节 **
    1.  单精度必须要有6为有效数字，即为0.600000
    2. 双精度必须又10位有效数字 即为 0.6000000000
-2. ![image-20200514115149411](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200514115149411.png)
+2. ![image-20200514115149411](https://kauizhaotan.oss-cn-shanghai.aliyuncs.com/img/image-20200514115149411.png)
 
 ### 常量
 
@@ -214,13 +214,13 @@ main{
 
 输出格式符号：
 
-![image-20200427181809500](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200427181809500.png)
+![image-20200427181809500](https://kauizhaotan.oss-cn-shanghai.aliyuncs.com/img/image-20200427181809500.png)
 
-![image-20200427184831852](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200427184831852.png)
+![image-20200427184831852](https://kauizhaotan.oss-cn-shanghai.aliyuncs.com/img/image-20200427184831852.png)
 
 输入格式符：
 
-![image-20200427183921508](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200427183921508.png)
+![image-20200427183921508](https://kauizhaotan.oss-cn-shanghai.aliyuncs.com/img/image-20200427183921508.png)
 
 注意： 
 
@@ -406,7 +406,6 @@ for (i = 0; i < num-1; ++i)//循环了num-1次
    }
    ```
    
-   
 
 # 预处理
 
@@ -476,9 +475,9 @@ for (i = 0; i < num-1; ++i)//循环了num-1次
    1.  打开用函数fopen(文件名,文件打开方式)  其中文件名可以是绝对路径
    2. **文件关闭 fclose(文件类型指针)；**
 
-   ![image-20200508150744968](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200508150744968.png)
+   ![image-20200508150744968](https://kauizhaotan.oss-cn-shanghai.aliyuncs.com/img/image-20200508150744968.png)
 
-   ##### 注意7i6你被，9，，w 和 a 操作都可以打开不存在的文件 区别在与追加与否 **可以理解为：w为覆盖写，a为追加写**
+   ##### 注意: w 和 a 操作都可以打开不存在的文件 区别在与追加与否 **可以理解为：w为覆盖写，a为追加写**
 
    2. fopen（）打开文件错误会返回NULL空指针，**NULL在stdio.h中被定义为0**
    3. 在输入文本文件时，将回车换行符换为一个换行符，在输出时把换行符换成一个回车符和一个换行符。在操作二进制文件时不需要进行这种转换
@@ -489,7 +488,7 @@ for (i = 0; i < num-1; ++i)//循环了num-1次
    
 2. 文件的读8、 。写
 
-![image-20200508150658820](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200508150658820.png)
+![image-20200508150658820](https://kauizhaotan.oss-cn-shanghai.aliyuncs.com/img/image-20200508150658820.png)
 
 ```c
 //文件初始化操作
@@ -631,14 +630,6 @@ print f;//读取文件的字节数
 正数的补码就是其原码，负数的补码就是其反码+1
 
 程序运算的时候是按照补码来相加减的。
-
-
-
-# 待解决的题目**
-
-![ ](C:\Users\tan13\AppData\Roaming\Typora\typora-user-images\image-20200511150356433.png)
-
-
 
 
 
